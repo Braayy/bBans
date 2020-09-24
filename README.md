@@ -7,11 +7,16 @@ A simple ban and mute plugin
 `/bbansreload` - Reloads the bbans messages.
 
 `/ban <target> <reason>` - Bans a player for a reason.
+
 `/tempban <target> <time-in-minutes> <reason>` - Temporally bans a player for a reason.
+
 `/unban <target>` - Unbans a player.
 
+
 `/mute <target> <reason>` - Mutes a player for a reason.
+
 `/tempmute <target> <time-in-minutes> <reason>` - Temporally mutes a player for a reason.
+
 `/unmute <target>` - Unmutes a player.
 
 The target player can be offline, but it must have logged once on the server first.
@@ -36,16 +41,16 @@ The target player can be offline, but it must have logged once on the server fir
 
 ## Ban Command
 
-<img src="https://raw.githubusercontent.com/Braayy/bbans/master/gifs/ban.gif" width="400" />
+<center><img src="https://raw.githubusercontent.com/Braayy/bbans/master/gifs/ban.gif" width="500" /></center>
 
 ## Tempban Command
 
-<img src="https://raw.githubusercontent.com/Braayy/bbans/master/gifs/tempban.gif" width="400" />
+<img src="https://raw.githubusercontent.com/Braayy/bbans/master/gifs/tempban.gif" width="500" />
 
 ## Mute Command
 
-<img src="https://raw.githubusercontent.com/Braayy/bbans/master/gifs/mute.gif" width="400" />
+<img src="https://raw.githubusercontent.com/Braayy/bbans/master/gifs/mute.gif" width="500" />
 
 ## Tempmute Command
 
-<img src="https://raw.githubusercontent.com/Braayy/bbans/master/gifs/tempmute.gif" width="400" />
+<img src="https://raw.githubusercontent.com/Braayy/bbans/master/gifs/tempmute.gif" width="500" />
