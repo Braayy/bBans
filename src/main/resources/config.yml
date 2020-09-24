@@ -1,0 +1,13 @@
+Storage:
+  # Available types: MySQL, SQLite
+  Type: SQLite
+
+  # SQLite
+  Filename: 'storage.db'
+
+  #MySQL
+  Host: ''
+  Port: '3306'
+  User: ''
+  Pass: ''
+  Database: ''

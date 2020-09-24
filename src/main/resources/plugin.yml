@@ -1,0 +1,30 @@
+name: '${project.artifactId}'
+main: '${project.groupId}.Bans'
+version: '${project.version}'
+author: 'Braayy'
+
+commands:
+  bbansreload:
+    description: 'Reloads the bbans messages'
+    permission: 'bbans.reload'
+  ban:
+    description: 'Ban a player'
+    permission: 'bbans.ban'
+  kick:
+    description: 'Kick a player'
+    permission: 'bbans.kick'
+  tempban:
+    description: 'Temporally ban a player'
+    permission: 'bbans.tempban'
+  mute:
+    description: 'Mute a player'
+    permission: 'bbans.mute'
+  tempmute:
+    description: 'Temporally mute a player'
+    permission: 'bbans.tempmute'
+  unban:
+    description: 'Unban a banned player'
+    permission: 'bbans.unban'
+  unmute:
+    description: 'Unmute a muted player'
+    permission: 'bbans.unmute'

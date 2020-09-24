@@ -1,0 +1,52 @@
+command:
+  player-not-found: '&c{player} was not found'
+  invalid-time: '&c{time} is not a valid time in minutes'
+
+  reload:
+    success: '&cYou''ve reloaded the bbans messages'
+
+  ban:
+    usage: '&cUsage: /ban <target> <reason>'
+    player-already-banned: '&c{player} already are permanently bannned'
+    banned: '&aYou''ve banned permanently {player} for {reason}'
+
+  tempban:
+    usage: '&cUsage: /tempban <target> <time-in-minutes> <reason>'
+    tempbanned: '&aYou''ve tempbanned {player} because of {reason} for {time} minutes'
+
+  unban:
+    usage: '&cUsage: /unban <target>'
+    player-already-unbanned: '&c{player} is not banned'
+    unbanned: '&aYou''ve unbanned {player}'
+
+  mute:
+    usage: '&cUsage: /mute <target> <reason>'
+    player-already-muted: '&c{player} already are permanently muted'
+    muted: '&aYou''ve muted {player} for {reason}'
+
+  tempmute:
+    usage: '&cUsage: /tempmute <target> <time-in-minutes> <reason>'
+    tempmuted: '&aYou''ve tempmuted {player} because of {reason} for {time} minutes'
+
+  unmute:
+    usage: '&cUsage: /unmute <target>'
+    player-already-unmuted: '&c{player} is not muted'
+    unmuted: '&aYou''ve unmuted {player}'
+
+ban-messages:
+  permaban:
+    - '&cYou were permanently banned from this server!'
+    - '&cReason: &o{reason}'
+    - '&9Support: nosupportbynow.com/unban'
+
+  tempban:
+    - '&cYou were permanently banned from this server!'
+    - '&cReason: &o{reason}'
+    - '&cYour punishment ends in: &n{end}'
+    - '&9Support: nosupportbynow.com/unban'
+
+mute-messages:
+  permamute: '&cYou are permanently muted for {reason}!'
+  tempmute:
+    - '&cYou are muted for {reason}!'
+    - '&cYour punishment ends in: &n{end}'
