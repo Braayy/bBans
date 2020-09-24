@@ -44,6 +44,8 @@ public class Bans extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        HandlerList.unregisterAll(this);
+
         this.disableServices();
     }
 
